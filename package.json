@@ -1,0 +1,34 @@
+{
+  "name": "youtube-transcript-toolkit",
+  "version": "1.0.0",
+  "description": "Get YouTube transcripts and subtitles (text, SRT, VTT, JSON, timestamps) from Node.js or the command line. No API key.",
+  "type": "module",
+  "bin": {
+    "youtube-transcript": "cli.js"
+  },
+  "main": "yt.js",
+  "exports": {
+    ".": "./yt.js",
+    "./format": "./format.js"
+  },
+  "files": [
+    "yt.js",
+    "format.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "youtube",
+    "transcript",
+    "subtitles",
+    "captions",
+    "srt",
+    "vtt",
+    "youtube-transcript",
+    "llm",
+    "rag"
+  ],
+  "license": "MIT"
+}
